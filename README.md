@@ -18,10 +18,16 @@ Le but de ce projet est d'ajouter l'interprétation de la prédiction de sexe à
 + SHAP : pour interpréter la prédiction du modèle (quelle(s) variable(s) qui sont importantes pour construire le modèle)
 
 ## 3. Comment exécuter le projet
-+ Etape 1 : clonez le projet par la commande suivante : 
-git clone 
++) Etape 1 : clonez le projet par les commandes dans l'ordre suivant : 
+```sh
+git clone https://github.com/Linhkobe/XAI-.git
+```
 
-+ Etape 2 :
+```sh
+cd XAI-
+```
+
++) Etape 2 :
 Il y a deux options :
-. Si vous voulez exécuter la notebook "from scratch", vous pouvez l'exécuter depuis du premier block "! pip install category_encoders "
-. Si vous voulez passer tous les étapes de prétraitement de données, vous pouvez exécuter la notebook à partir de la partie "Utiliser les données nettoyées". 
+- Si vous voulez exécuter la notebook "from scratch", vous pouvez l'exécuter depuis du premier block "! pip install category_encoders "
+- Si vous voulez passer tous les étapes de prétraitement de données, vous pouvez exécuter la notebook à partir de la partie "Utiliser les données nettoyées". 
